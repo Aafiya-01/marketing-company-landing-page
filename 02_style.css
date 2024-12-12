@@ -1,0 +1,147 @@
+body{
+    background-color: rgba(31,54,75,255);
+}
+.main_logo{
+    margin-left: 15px;   
+    margin-top: 10px;;
+}
+.nav_container{
+    display: flex;   
+    gap:500px;
+}
+.nav_bar{
+    display: flex;
+    justify-content:right;
+    gap: 50px;
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+}
+.list_item{
+    display: flex;
+}
+.list_item a{
+    color:white;
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.list_item:hover a{
+    background-color: rgb(253,193,31);
+    color:black;
+}
+.icon_container{
+    /* position: relative; */
+    width: 100px;
+    height:100px;
+}
+.light-circle{
+    padding:11px;
+    height: 61px;
+    background-color: rgb(112,104,59) ;
+    border-radius: 50%;
+}
+.dark-circle{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(253,193,31);
+    border-radius: 50%;
+}
+.search-icon{
+    padding: 14px;
+}
+.text{
+    color:blanchedalmond;
+    padding: 80px;
+    width: fit-content;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.white-circ{
+    position: relative;
+    top: 148px;
+    right:265px;
+    float: right;
+}
+.yellow-circ img{
+    height: 483px;
+    width: 546px;
+    position: absolute;
+    top: -130px;
+}
+.white-elli img{
+    top: -132px;
+    height: 460px;
+    width: 654px;
+    right: 39px;
+    position: absolute;
+}
+.heading h1{
+    margin-bottom: 15px;
+    width: 500px;
+}
+.heading::first-line{
+    color: rgb(253,193,31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submit-container {
+    margin-left: 80px;
+    font-family: Arial, sans-serif;
+    width: fit-content;
+    height: 100px;
+
+}
+.form-container {
+    width: 300px;
+}
+.form-input {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px; 
+    background-color: white;
+    font-size: 16px;
+}
+.send-button {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f9ca24; 
+    color: #243447; 
+    font-size: 16px;
+}
+.send-button:hover {
+    background-color: #835c02; 
+    color:white;
+}
+.send-button span {
+    margin-left: 5px;
+}
+.goal-img{
+    float:right;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+.chat-img{
+    float: left;
+    padding-left: 1100px;
+}
+/* .photo-container{
+    display: flex;   
+} */
+/* .white-line{
+    width: 200px;
+    height: 300px;
+}
+.yellow-circ{
+    width: 100px;
+    height: 300px;
+}
+.white-circ{
+    width: 100px;
+    height: 300px;
+} */
+
